@@ -1,0 +1,40 @@
+:root {
+  --primary-color: #122340;
+  --secondary-color: #feffa1;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  text-align: center;
+}
+
+header h1 {
+  padding-top: 2.5rem;
+}
+
+header p {
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.legal-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.25rem;
+}
+
+h2 {
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+p {
+  line-height: 1.6;
+  text-align: justify;
+}
