@@ -912,6 +912,10 @@ footer {
     grid-template-columns: 1fr;
   }
 
+  .form-row {
+    flex-direction: column;
+  }
+
   .testimonial__card-container {
     grid-template-columns: 1fr;
   }
